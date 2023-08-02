@@ -1,0 +1,17 @@
+package helloworld.main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		int numeroDeInscritos = 100;
+		int numeroDeCupons = 50;
+		int primeirosInscritos = 0;
+		
+		while(primeirosInscritos <= numeroDeCupons) {
+			imprimeMensagem("Inscrito de numero: " + primeirosInscritos + " ganhou o cupom");
+			primeirosInscritos++;
+		}
+	}
+
+	static void imprimeMensagem(String mensagem) {}
+}

@@ -1,0 +1,11 @@
+package helloworld.main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		String[] alunos = {"Marcos", "Aline", "Lucas", "Patricia"};
+		
+		System.out.println(alunos[0]);
+	}
+
+}

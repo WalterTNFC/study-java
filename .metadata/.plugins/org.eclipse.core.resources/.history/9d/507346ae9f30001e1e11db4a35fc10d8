@@ -1,0 +1,10 @@
+package helloworld.main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		String [] inscritos = {"Walter", "Gabi", "Armando", "Raul", "Gabizinha"};
+		System.out.println(inscritos[0]);
+	}
+
+}

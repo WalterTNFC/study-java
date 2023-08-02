@@ -1,0 +1,13 @@
+package helloworld.main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		StringBuilder stringBuilder = new StringBuilder();
+		
+		String frase = stringBuilder.append("A")
+				.append("Gabi")
+				.append("Muito bonoita")
+	}
+
+}

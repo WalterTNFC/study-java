@@ -1,0 +1,11 @@
+package helloworld.main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		short b = 32767;
+		System.out.println(b);
+	}
+
+}

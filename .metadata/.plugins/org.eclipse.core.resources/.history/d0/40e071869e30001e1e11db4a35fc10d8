@@ -1,0 +1,18 @@
+package helloworld.main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		double mediaFinal = 7.5;
+		String resultado = "Indefinido";
+		
+		if (mediaFinal > 7) {
+			resultado = "Aprovado";
+		} else {
+			resultado = "Reprovado";
+		}
+		
+		System.out.println(resultado);
+	}
+
+}

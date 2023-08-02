@@ -1,0 +1,29 @@
+package helloworld.main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+//		StringBuilder stringBuilder = new StringBuilder();
+//		String parte1 = "A ";
+//		String parte2 = "Gabi é muito bonita";
+//		
+//		String frase = stringBuilder.append(parte1)
+//				.append(parte2)
+//				.append("Muito bonita")
+//				.toString();
+				
+//		System.out.println(frase);
+		
+//		StringBuilder novaFrase = stringBuilder.replace(0, 1, "O");
+//		System.out.println(novaFrase);
+		
+		int[] array = new int[2];
+		array[0] = 10;
+		array[1] = 9;
+		
+		System.out.println(array[0]);
+		System.out.println(array[1]);
+	}
+
+}

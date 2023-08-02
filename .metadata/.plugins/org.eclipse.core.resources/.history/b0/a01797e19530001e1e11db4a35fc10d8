@@ -1,0 +1,19 @@
+package helloworld.main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+		StringBuilder stringBuilder = new StringBuilder();
+		String parte1 = "A";
+		String parte2 = "Gabi é muito bonita";
+		
+		String frase = stringBuilder.append(parte1)
+				.append(parte2)
+				.append("Muito bonoita")
+				.toString();
+				
+		System.out.println(frase);
+	}
+
+}

@@ -1,0 +1,20 @@
+package helloworld.main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		String [] inscritos = { "MARCOS", "ALINE", "LUCAS", "PATRICIA", "JOAO", "FELIPE", "LUCIA", "ANTONIO", "FERNANDA",
+				"MARCELA", "VITOR", "BEATRIZ", "JORGE", "JULIA" };
+		System.out.println(inscritos.length);
+		
+		final int numeroDeVagas = 10;
+		
+		String[] vagas = new String[numeroDeVagas];
+		
+		int vagaAtual = 0;
+		
+		String inscrito = "Indefinido";
+		
+	}
+
+}
